@@ -1,0 +1,64 @@
+body{
+	background-image: url('http://ste.india.com/sites/default/files/2016/02/18/461736-sachin-tend-autob.jpg');
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    margin: 0px;
+}
+p{font-weight: bold;
+color: black;
+font-style: arial;
+font-size: 20px;
+
+}
+#ulist{
+	color:black;
+}
+
+	.head1{
+		float: left;
+	}
+	.sach1{
+		text-align: justify;
+	}
+	li{ 
+font-weight: bold;
+		 content: '&nbsp;';
+
+     }
+	li a{
+		display: block;
+		padding: 10px;
+		color: red;
+		text-decoration: none;
+		font-size: 150%;
+	}
+	#video{  
+	align-items: center;      
+       	width: 560px; 
+        height: 315px;
+        top: 95%;
+        }
+        header{
+        	display: block;
+        }
+        #record{
+        	color: red;
+        	font-size: 24px;
+        	font-style: italic
+        }
+        ol{
+        	text-align: left;
+        }
+        .input{
+        	opacity: 0.3;
+        	font-weight: bold;
+        }
+        .yob
+        {
+            opacity: 0.3;
+            font-weight: bold;
+        }
+        .image #image{
+        	width: 35px;
+        	height: 35px;
+        }

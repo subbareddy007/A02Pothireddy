@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+	<title>Age Calculation</title>
+</head>
+
+<header>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="Home.html">Home</a></li>
+        <li><a href="Autobiography.html">Autobiography</a></li>
+        <li><a href="Contact_Us.html">Contact</a></li> 
+        <li><a href="age.html">Calculate Age</a></li> 
+      </ul>
+    </div>
+  </div>
+</nav>
+<script>
+ $(document).ready(function(){
+		$("#yob").blur(function(){
+			$(this).css("background-color", "#9afe2e");
+		});
+		$("#pyear").blur(function(){
+			$(this).css("background-color", "#9afe2e");
+		});
+		$("#yob").focus(function(){
+			$(this).css("background-color", "#fff");
+		});
+		$("#pyear").focus(function(){
+			$(this).css("background-color", "#fff");
+		});
+
+	});
+</script>
+</header>
+<body>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+
+<link rel="stylesheet" type="text/css" href="Pothireddy_Subbareddy.css">
+
+<h1>Calculate your Age</h1>
+		
+		<form action="#">
+		<label for="yob">Enter Year of Birth:<br></label>
+				<input class="input" type="text" id="yob" name="yob" value="Year"><br>
+				<label for="pyear">Enter Present Year:<br></label>
+				<input class="input" type="text" id="pyear" name="pyear" value="Year"><br>
+				<input type="button" onclick = "calage();"  value="submit">
+		</form>
+				
+				
+				
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		<script src="age.js"></script>
+	</body>
+	
+	</html>
